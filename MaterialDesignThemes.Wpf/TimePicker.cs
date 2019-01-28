@@ -242,6 +242,8 @@ namespace MaterialDesignThemes.Wpf
             nameof(WithSeconds), typeof(bool), typeof(TimePicker),
             new PropertyMetadata(default(bool), WithSecondsPropertyChanged));
 
+        public TextBox TextBox => _textBox;
+
         /// <summary>
         /// Set to true to display seconds in the time and allow the user to select seconds.
         /// </summary>
