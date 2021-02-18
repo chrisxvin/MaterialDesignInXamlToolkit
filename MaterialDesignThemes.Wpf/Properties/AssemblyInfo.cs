@@ -1,4 +1,5 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Markup;
@@ -37,3 +38,5 @@ using System.Windows.Markup;
     "0f0bec65b13217a0eaa37f0cced961386e92fd4d920179893d348b0210660f73e47adbc481c7b5" +
     "b63afbf3e60199685794599d28e915a30ca7dc879d9ad0dd0a0e7ea5e99937d637c4b1cb671fa4" +
     "425248dd")]
+// Git master branch hash
+[assembly: AssemblyMetadata("git", "tag:v4.0.0")]
